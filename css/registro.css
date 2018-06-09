@@ -1,0 +1,64 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.contenido{
+    max-width: 450px;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+    margin: 5% auto;
+    padding-bottom: 1rem;
+    margin-top: -30%;
+}
+.form_top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem #F39B;
+    margin-bottom: 1rem;
+}
+.for_top,h2{
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 18px;
+}
+h2 span{
+    color: rebeccapurple;
+}
+.clas_reg{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn_form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.input, .btn_submit, .btn_reset{
+   
+    padding: .5rem ;
+    margin: .5rem 0;
+    border: none;
+    background: transparent;
+    transition: all .5s;
+    font-size: 19px;
+    color: white;
+}
+.input:focus{
+    border-bottom: solid #F39B53 .2rem;
+}
+.btn_submit, .btn_reset{
+    width: 40%;
+    border-bottom: none;
+    background-color: rebeccapurple;
+    color: white;
+}
+.btn_reset{
+    background-color: rebeccapurple;
+}
+.btn_submit:hover{
+    background-color: #4C9ED9;
+}

@@ -1,0 +1,89 @@
+#mimodal{
+    opacity: 0;
+    visibility: hidden;    
+    margin-top: -300px;
+    
+}
+#mimodal:target{
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: 999;
+    transition: all 1s;
+}
+
+.contenedorModal{
+    background: rgba(0,0,0,0.6);   
+    position: relative;
+    margin: 7% auto;
+    padding: 30px 50px;
+    color: #333;
+    border-radius: 30px;
+    width: 55%;
+    
+ }
+a.cerrar{
+    position:absolute;
+    top: 3px;
+    right: 3px;
+     padding: 7px 10px;
+    font-size: 20px;
+    line-height: 1;
+    color:#FFf;
+}
+.registro{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: rebeccapurple;
+    color: cyan;
+    text-align: center;
+    border-radius: 13px 13px;
+    padding-top: 0px;
+}
+.secion{
+    text-align: center;
+    font-family:sans-serif;
+    color: rebeccapurple;
+    margin: 10px;
+    
+}
+input[type="text"], input[type="password"]{
+   border: none;
+    background: transparent;
+    border-bottom: 1px solid ;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: rebeccapurple;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border-bottom: solid #F39B53 .2rem;
+
+} 
+input[type="submit"]{
+  
+    background-color:rebeccapurple;
+    color: aqua;
+    font-size: 18px;
+    padding: .5rem ;
+    border: none;
+    margin-left: 20%;
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+.registro,a{
+    background: none;
+    height:2px;
+}
